@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Flatly.css">
+    <title>Student Info</title>
+</head>
+<body>
+    <div class="container bg-dark" style="padding: 40px;">
+        <form action="index.php" method="post">
+            <div class="form-group">
+                <label for="">F.Name</label>
+                <input class="form-control" type="text" name="fName"> 
+            </div>
+            <div class="form-group">
+                <label for="">L.Name</label>
+                <input class="form-control" type="text" name="lName"> 
+            </div>
+            <div class="form-group">
+                <label for="">Age</label>
+                <input class="form-control" type="text" name="age"> 
+            </div>
+            <div class="form-group">
+                <label for="">Gender</label>
+                <input value="male" class="form-check-input"  type="radio" name="gender"> Male
+                <input value="female" class="form-check-input" type="radio" name="gender"> Female
+            </div>
+            <div class="form-group">
+                <label for="">Year</label>
+                <input class="form-check-input" value="1st" type="radio" name="year"> 1st
+                <input class="form-check-input" value="2nd" type="radio" name="year"> 2nd
+                <input class="form-check-input" value="3rd" type="radio" name="year"> 3rd
+                <input class="form-check-input" value="4th" type="radio" name="year"> 4th
+            </div>
+            <div class="form-group">
+                <label for="">Semister</label>
+                <select class="form-control" name="semi" id="">
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Photo</label>
+                <input class="form-control" type="file"  name="pic"> 
+            </div>
+            <div class="form-group">
+                <label for="">Comment:</label>
+                <textarea class="form-control" name="comment" id="" cols="30" rows="2"></textarea> 
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary">
+            </div>
+            <div class="form-group">
+                <a class=" btn btn-secondery " href="index.html"> Regstration</a>
+                <a class=" btn btn-secondery " href="update.html"> Update</a>
+                <a class=" btn btn-secondery " href="search.html"> Search</a>
+                <a class=" btn btn-secondery " href="delete.html"> Delete</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
